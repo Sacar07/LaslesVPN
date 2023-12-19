@@ -43,7 +43,7 @@
         font-size: 1rem;
         width: 550px;
         color: #4F5665;
-        padding-bottom: px;
+        /* padding-bottom: px; */
       }
       .btn-2{
        font-size: 13px;
@@ -54,7 +54,9 @@
        border-radius: 10px;
        padding: 15px 50px 15px 50px;
        margin-top: 25px;
-       box-shadow: 0 25px 35px 0 rgba(0,0,0,0.2), 0 20px 35px 0 rgba(0,0,0,0.19);
+      }
+      .btn-2:hover{
+        box-shadow: 0 25px 35px 0 rgba(0,0,0,0.2), 0 20px 35px 0 rgba(0,0,0,0.19);
       }
       .body{
         display: flex;
@@ -104,14 +106,92 @@
         display: flex;
         justify-content: space-around;
         align-content: center;
-        margin-top: 153px;
+        margin-top: 50px;
+          /* box-shadow: 0 25px 35px 0 rgba(0,0,0,0.2), 0 20px 35px 0 rgba(0,0,0,0.19); */
       }
 
-    .features p{
+    .features div p{
       color: #4F5665;
+      margin-top: 90px;
     }
             .tick {
-            max-width: 16px;
+            max-width: 15px;
             height: auto;
-            margin-right: 10px; 
+            margin-right: 8px; 
         }
+
+        .top p{
+          display: flex;
+          justify-content: center;
+        }
+        .below{
+          display: flex;
+          justify-content: center;
+        }
+
+        .container{
+          display: flex;
+          justify-content: space-around;
+          /* background: linear-gradient(180deg, #F8F8F8 -45.04%, rgba(248, 248, 248, 0.00) 88.56%); */
+        }
+        .box{
+          display: flex;
+          height: 760px;
+          width: 330px;
+          border-radius: 10px;
+          border: 2px solid #DDD;
+          background-color: #FFF;
+          /* gap: 1rem; */
+        }
+        .icon{
+            width: 144.904px;
+            height: 165.374px;
+        }
+        .box.free{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        } 
+      .free ul li{
+        list-style: none;
+        color: #4F5665;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        margin: 9px;
+        margin-left: -19px;
+      }
+
+      .box-bottom{
+        color: #0B132A;
+        font-size: 25px;
+        font-weight: bolder;
+        margin-top: 100px;
+      }
+      .box-btn{
+        border-radius: 50px;
+        border: 2px solid #F53838;
+        color: #F53838;
+        width: 177.876px;
+        height: 45px;
+        font-weight: bolder;
+
+      }
+      .month{
+        color: #4F5665;
+        font-weight: 100;
+      }
+      .box.free.border{
+        border: 2px solid #F53838;
+        align-items: center;
+      }
+      .box-btn.premium{
+         background-color: #F53838;
+         color: #FFF;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      }
+      .top{
+        margin-top: 160px;
+        background: linear-gradient(180deg, #F8F8F8 -45.04%, rgba(248, 248, 248, 0.00) 88.56%);
+      }
